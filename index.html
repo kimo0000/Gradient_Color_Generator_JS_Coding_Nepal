@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gredient Color Generator JS Coding Nepal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="gradient_color"></div>
+      <div class="option_gredient">
+        <div class="direction">
+          <p>Direction :</p>
+          <select name="selected" id="select">
+            <option value="to left" selected>Left</option>
+            <option value="to left top">Left Top</option>
+            <option value="to left bottom">Left Bottom</option>
+            <option value="to right">Right</option>
+            <option value="to right top">Right top</option>
+            <option value="to right bottom">rigth Bottom</option>
+            <option value="to top">Top</option>
+            <option value="to bottom">Bottom</option>
+          </select>
+        </div>
+        <div class="colors">
+          <p>Colors :</p>
+          <div class="input_colors">
+            <input class="color_one" type="color" />
+            <input class="color_two" type="color" />
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <textarea name="textarea" disabled>
+background: linear-gradient(to left, red, blue")</textarea
+        >
+      </div>
+      <div class="btns">
+        <button class="btn_refresh">Refresh Colors</button>
+        <button class="btn_copy">Copy Code</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d575fe1d69.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

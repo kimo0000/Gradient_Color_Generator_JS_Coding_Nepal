@@ -1,0 +1,92 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left bottom, #a87, #f54);
+}
+
+.wrapper {
+  max-width: 850px;
+  width: 50%;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.gradient_color {
+  width: 300px;
+  height: 200px;
+  background-color: blueviolet;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.option_gredient {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.direction,
+.colors {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.colors input {
+  cursor: pointer;
+}
+
+.direction select {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.area textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 8px;
+  resize: none;
+  border-radius: 8px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btns button {
+  width: 49%;
+  padding: 6px 8px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #ccc;
+  transition: 0.3s;
+}
+
+.btns button:hover {
+  opacity: 0.5;
+}
